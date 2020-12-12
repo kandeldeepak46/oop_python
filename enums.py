@@ -27,3 +27,6 @@ for day in Weekday:
     print(f"Today is {day.name.capitalize()}")
     wake_time = weekday_wake_up if day in weekdays else weekend_wake_up
     print(f"Wake up time: {wake_time}\n")
+
+if __name__ == '__main__':
+    main()
